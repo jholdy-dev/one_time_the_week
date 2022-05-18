@@ -12,3 +12,10 @@ function nomes(a) {
     }
     
 };
+
+for(let i=0; i<4; i++){
+    array[i] = nomes(i);
+}
+
+//ordenando alfabeticamente
+console.log(array.sort());
